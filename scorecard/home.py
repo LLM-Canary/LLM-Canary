@@ -81,8 +81,8 @@ def create_scorecard_home():
     st.markdown('<h2>LLM Canary</h2>', unsafe_allow_html=True)
     st.markdown('<a href="https://llm-canary.webflow.io/">Website</a>', unsafe_allow_html=True)
     st.markdown('<a href="https://github.com/LLM-Canary/LLM-Canary">Github</a>', unsafe_allow_html=True)
-    st.markdown('<a href="">Scorecard Methodology</a>', unsafe_allow_html=True)
-    st.markdown('<a href="">Benchmark Methodology</a>', unsafe_allow_html=True)
+    st.markdown('<a href="https://github.com/LLM-Canary/LLM-Canary/blob/main/documentation/4.Scoring_Methodology.md">Scorecard Methodology</a>', unsafe_allow_html=True)
+    st.markdown('<a href="https://github.com/LLM-Canary/LLM-Canary/blob/main/documentation/5.Benchmark_Methodology.md">Benchmark Methodology</a>', unsafe_allow_html=True)
     st.markdown('<p style="font-size: 20px">Contact us: <a href="llmcanarybenchmark.gmail.com">LLMcanarybenchmark@gmail.com</a></p>', unsafe_allow_html=True)
     
     
