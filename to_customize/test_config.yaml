@@ -3,4 +3,3 @@
 # all test_suites/test_groups must start with a dash: '- [TEST_SUITE/TEST_GROUP]'
 
 - Benchmark
-- Custom Test Group 2
