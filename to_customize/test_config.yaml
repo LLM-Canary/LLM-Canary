@@ -1,0 +1,6 @@
+# name of custom tests must match the name in the custom_prompts.yaml file
+# can only call on the test_suite/test_group level
+# all test_suites/test_groups must start with a dash: '- [TEST_SUITE/TEST_GROUP]'
+
+- Benchmark
+- Custom Test Group 2

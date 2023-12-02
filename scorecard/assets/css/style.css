@@ -1,0 +1,141 @@
+:root {
+    --canary-blue: #14adcf;
+    --canary-yellow: #ffff01;
+    --canary-orange: #f5761a;
+    --canary-amber: #ffa836;
+    --canary-green: #03c04a;
+    --canary-navy: #281e5d;
+}
+
+
+h1 {
+    color: white;
+    padding: 0.2em;
+    font-size: 36px;
+    background-color: var(--canary-blue);
+}
+
+h2 {
+    color: var(--canary-navy);
+    font-size: 30px;
+}
+
+h3 {
+    color: var(--canary-navy);
+    text-align: center;
+    padding: 1em
+}
+
+h4 {
+    color: black;
+    font-size: 18px;
+}
+
+a:link {
+    color: var(--canary-blue);
+    font-size: 20px;
+}
+
+a:visited {
+    color: var(--canary-blue);
+}
+
+a:hover {
+    color: var(--canary-orange);
+}
+
+a:active {
+    color: var(--canary-blue);
+}
+
+.pass {
+    background-color: var(--canary-green);
+    color: white;
+}
+
+.fail {
+    background-color: var(--canary-orange);
+    color: var(--canary-yellow)
+}
+
+.scorecard_table {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.scorecard_table th {
+    background-color: var(--canary-navy);
+    color: white;
+    text-align: center
+}
+
+/* .scorecard_table tr:hover {
+    background-color: green;
+    color: white;
+} */
+
+.scorecard_table_test_group {
+    text-align: center;
+    background-color: var(--canary-blue);
+    color: white;
+}
+
+.scorecard_table_first_column {
+    background-color: white;
+    color: var(--canary-navy);
+    font-weight: bold;
+}
+
+.scorecard_table_first_column a:link {
+    background-color: white;
+    color: var(--canary-navy);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.scorecard_table_first_column a:visited {
+    background-color: white;
+    color: var(--canary-navy);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.scorecard_table_first_column a:hover {
+    background-color: white;
+    color: var(--canary-blue);
+    font-weight: bold;
+}
+
+.scorecard_table_benchmark {
+    text-align: center;
+    background-color: var(--canary-blue);
+    color: white;
+}
+
+.test_group {
+    font-size: 24px;
+    background-color: var(--canary-amber);
+    padding: 0.5em;
+    color: white;
+}
+
+.test_detail {
+    font-size: 20px;
+    color: var(--canary-green);
+}
+
+.prompt {
+    margin-left: 30px;
+}
+
+.response_detail {
+    margin-left: 55px;
+}
+
+.test_type {
+    font-weight: bold;
+    color: var(--canary-navy);
+    font-size: 16px;
+}

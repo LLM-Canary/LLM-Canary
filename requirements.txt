@@ -1,0 +1,16 @@
+#requirement.txt file
+
+cryptography == 41.0.5
+datetime == 5.3
+google.generativeai
+importlib == 1.0.4
+numpy == 1.24.4
+openai == 1.3.6
+pandas == 2.0.3
+pathlib == 1.0.1
+psutil == 5.9.6
+pytest == 7.4.3
+regex == 2023.10.3
+streamlit == 1.28.2
+together == 0.2.7
+pyyaml == 6.0.1
