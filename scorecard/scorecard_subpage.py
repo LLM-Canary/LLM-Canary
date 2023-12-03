@@ -35,7 +35,7 @@ def create_scorecard_detail(data):
     display_test_results_details(data['test_cases'])
 
     # Sidebar button to close website server and return to main menu
-    if st.sidebar.button('Close Website '):
+    if st.sidebar.button('Stop Webpage Server'):
         # Terminate streamlit python process
         pid = os.getpid()
         p = psutil.Process(pid)
