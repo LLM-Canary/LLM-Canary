@@ -67,7 +67,7 @@ def create_scorecard_home():
     st.markdown('<h1>Resources</h1>', unsafe_allow_html=True)
     
     st.markdown('<h2>OWASP LLM Top 10</h2>', unsafe_allow_html=True)
-    st.markdown('<a href="https://owasp.org/www-project-top-10-for-large-language-model-applications/assets/PDF/OWASP-Top-10-for-LLMs-2023-v1_0.pdf">Full Report Version 1.0</a>', unsafe_allow_html=True)
+    st.markdown('<a href="https://owasp.org/www-project-top-10-for-large-language-model-applications/assets/PDF/OWASP-Top-10-for-LLMs-2023-v1_1.pdf">Full Report Version 1.1</a>', unsafe_allow_html=True)
     st.markdown('<ul><li style="font-size: 18px;">Prevention and Remediation recommendations can also be found within this OWASP report.</li></ul>', unsafe_allow_html=True)
     st.markdown('<a href="https://owasp.org/www-project-top-10-for-large-language-model-applications/">OWASP LLM Top 10 Website</a>', unsafe_allow_html=True)
     
