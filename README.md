@@ -10,7 +10,7 @@ With the LLM Canary tool, you can:
  - **Identify potential vulnerabilities** based on the OWASP top 10 for LLMs
  - **Define risk** for identified vulnerabilities
  - **Run multiple LLMs at once** to improve speed and effectiveness of tests
- - **Compare your results** to our [benchmark](./documentation/benchmark_methodology.md) or to past runs
+ - **Compare your results** to our [benchmark](./documentation/5.benchmark_methodology.md) or to past runs
  - **Create custom tests** to customize your testing experience and ensure thoroughness of testing.
 
-To get started, please refer to the [Quick Start Guide](./documentation/quick_start.md).
+To get started, please refer to the [Quick Start Guide](./documentation/1.quick_start_guide.md).
