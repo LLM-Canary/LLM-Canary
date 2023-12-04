@@ -55,7 +55,7 @@ def create_scorecard_home():
             file_path.unlink()
 
     # Sidebar button to close website server and return to main menu
-    if st.sidebar.button('Close Website'):
+    if st.sidebar.button('Stop Website Server'):
         # Terminate streamlit python process
         pid = os.getpid()
         p = psutil.Process(pid)
