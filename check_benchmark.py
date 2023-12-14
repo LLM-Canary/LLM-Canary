@@ -18,8 +18,8 @@ def calc_benchmark_hash(hash_algorithm="sha256"):
                 break
             hasher.update(data)
     if platform.system() == 'Darwin':
-        return(hasher.hexdigest().lower() == 'b3e6e452e2730eb3efb64b0422def0625b3804661eda25d29411374ec1881371')
+        return(hasher.hexdigest().lower() == '9348ca05137c785ec209ec626d62f3da18294bb1f8d3f3c616bb0a8a2b4f73c4')
     elif platform.system() == 'Windows':
-        return(hasher.hexdigest().lower() == 'ef90234a6c559085ff3994f0fcb25085f2e297daf99c59fae6f153c67c5707e5')
+        return(hasher.hexdigest().lower() == '9348ca05137c785ec209ec626d62f3da18294bb1f8d3f3c616bb0a8a2b4f73c4')
     else:
         return(False)
